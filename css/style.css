@@ -1,0 +1,49 @@
+body {
+            margin: 1px;
+            padding: 0px;
+            background: black;
+        }
+
+        .button {
+            width: 76px;
+            height: 70px;
+            font-size: 25;
+            margin: 2px;
+            cursor: pointer;
+            background: #decc2f;
+            border-radius: 10px;
+            box-shadow: 0 2px black;
+            
+        }
+
+        .textView {
+            display: flex;
+            align-items: center;
+            width: 311px;
+            height: 70px;
+            margin: 5px;
+            font-size: 45px;
+            padding: 5px;
+            background: white;
+            border-radius: 10px;
+            background: #b9b9b9;
+        }
+
+        .calc {
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translateX(-50%) translateY(-50%);
+            background: #516f8d;
+            border-radius: 5px;
+        
+            border-radius: 15px;
+
+        }
+.button:hover{
+    background: #615705;
+}
+.button:active{
+   box-shadow: 0 3px #66d0a9;
+  transform: translateY(7px);
+}
